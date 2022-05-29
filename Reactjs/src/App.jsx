@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import logo from './logo.svg'
+
 import "./App.css"
-import Circles from './components/circles'
+import Empty from './components/empty'
 
 function App() {
  
 
   return (
     <div className="App">
-     {<Circles/>}
+     {<Empty/>}
      
     </div>
   )
